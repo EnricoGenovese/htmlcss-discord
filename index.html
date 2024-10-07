@@ -24,7 +24,7 @@
                 </ul>
             </div>
             <div>
-                <a href="#" class="btn white text-dark">
+                <a id="login" class="btn white text-dark">
                     Accedi
                 </a>
             </div>
@@ -34,7 +34,7 @@
      <!-- main -->
       <main>
         <section id="hero" class="blue">
-            <div class="container-small">
+            <div class="container-small d-flex column">
                 <h1 class="text-white">Il tuo posto per parlare</h1>
                 <p  class="text-white">Che tu faccia parte di un club scolastico, gruppo di gamer,cominità artistica mondiale, o semplicemente un piccolo gurppo di amici che vuole passare del tempo assieme, Discord rende più facile chiaccherare ogni giorno e ritrovarsi più spesso. </p>
                 <div class="buttons">
@@ -101,8 +101,8 @@
                 <div class="stars">
                     <h2>Pronto ad iniziare la tua avventura?</h2>
                 </div>
-                <div class="btn-big contrast text-white">
-                    <a href="">Download for Mac</a>
+                <div id="download" class="btn-big contrast text-white">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i>Scarica per Mac</a>
                 </div>
             </div>    
         </section>
@@ -110,8 +110,8 @@
 
       <!-- footer -->
        <footer class="dark" >
-        <nav class="container d-flex s-between">
-            <div class="left d-flex column" style="align-content: flex-start;">
+        <nav class="container d-flex">
+            <div class="left d-flex column">
                 <h2 class="text-contrast">Il tuo posto per parlare</h2>
                 <div>
                     <img src="./img/ita.png" alt="ita">
@@ -119,14 +119,14 @@
                         <option value="italian">Italiano</option>
                     </select>
                 </div>
-                <div class="text-white s-between">
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <div class="text-white">
+                    <a href="#" class="close"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="close"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" class="close"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="close"><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
-            <div class="right d-flex s-between">
+            <div class="right d-flex s-between f-wrap">
                 <ul>
                     <li><h3 class="text-contrast">Prodotto</h3></li>
                     <li><a href="#">Scarica</a></li>
@@ -171,7 +171,7 @@
                     <img src="./img/logo.svg" alt="Logo">
                 </div>
                 <div>
-                    <button class="btn blue text-white">Subscribe</button>
+                    <button class="btn blue text-white">Registrati</button>
                 </div>
             </nav>
        </footer>
