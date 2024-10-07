@@ -42,9 +42,9 @@
                     <a href="#" class="btn-big dark text-white">Apri Discord nel tuo browser</a>
                 </div>
             </div>   
-        </section>       
-        <section class="container">
-            <div class="d-flex s-around">
+        </section>     
+        <section id="place">
+            <div class="container d-flex s-around">
                 <div class="img">
                     <img src="./img/item1.svg" alt="luogo-a-invito">
                 </div>
@@ -54,56 +54,71 @@
                 </div>
             </div>
         </section>
-        <section class="container light">
-            <div class="d-flex s-around r-reverse">
-                <div class="img">
-                    <img src="./img/item2.svg" alt="easy-to-meet">
-                </div>
-                <div class="content">
-                    <h2>Dove trovarsi è facile</h2>
-                    <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere se sei lì e unirsi istantaneamente senza dover chiamare.</p>
-                </div>
-            </div>
-        </section>
-        <section class="container">
-            <div class="d-flex s-between c-items">
-                <div class="img">
-                    <img src="./img/item3.svg" alt="few-to-fandom">
-                </div>
-                <div class="content">
-                    <h2>Da pochi a un fandom</h2>
-                    <p>Dai inizio a una community duiq qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.</p>
+        <div class="wave"></div>
+        <section id="meet" class="light">
+            <div class="container">
+                <div class="d-flex s-around r-reverse">
+                    <div class="img">
+                        <img src="./img/item2.svg" alt="easy-to-meet">
+                    </div>
+                    <div class="content">
+                        <h2>Dove trovarsi è facile</h2>
+                        <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere se sei lì e unirsi istantaneamente senza dover chiamare.</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="container light">
-            <div class="d-flex c-items c-reverse">
-                <div class="img">
-                    <img src="./img/item4-big.svg" alt="technology">
-                </div>
-                <div class="h-content c-items">
-                    <h2>Tecnologia affidabile per tenersi in contatto</h2>
-                    <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in sessione di disegno con la condivisione schermo.</p>
+        <div class="wave rotate"></div>
+        <section id="fandom">
+            <div class="container">
+                <div class="d-flex s-between c-items">
+                    <div class="img">
+                        <img src="./img/item3.svg" alt="few-to-fandom">
+                    </div>
+                    <div class="content">
+                        <h2>Da pochi a un fandom</h2>
+                        <p>Dai inizio a una community duiq qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="d-flex column c-items container">
-            <div class="stars">
-                <h2>Pronto ad iniziare la tua avventura?</h2>
+        <div class="wave"></div>    
+        <section  id="technology" class="light">
+            <div class="container">
+                <div class="d-flex c-items c-reverse">
+                    <div class="img">
+                        <img src="./img/item4-big.svg" alt="technology">
+                    </div>
+                    <div class="h-content c-items">
+                        <h2>Tecnologia affidabile per tenersi in contatto</h2>
+                        <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in sessione di disegno con la condivisione schermo.</p>
+                    </div>
+                </div>
             </div>
-            <div class="btn-big ">
-                Download 4 Mac
-            </div>
+        </section>
+        <section id="call-to-action">
+            <div class="d-flex column c-items container">
+                <div class="stars">
+                    <h2>Pronto ad iniziare la tua avventura?</h2>
+                </div>
+                <div class="btn-big contrast text-white">
+                    Download for Mac
+                </div>
+            </div>    
         </section>
       </main>
 
       <!-- footer -->
-       <footer>
-        <nav class="left container d-flex s-between">
-            <div class="d-flex column s-between">
+       <footer class="dark" >
+        <nav class="container d-flex s-between">
+            <div class=" left d-flex column s-between" style="align-content: flex-start;">
                 <h2 class="text-contrast">Il tuo posto per parlare</h2>
-                    div
-                <img src="./img/ita.png" alt="ita"><span class="text-white"> Italiano</span>
+                <div>
+                    <img src="./img/ita.png" alt="ita">
+                    <select>
+                        <option value="italian">Italiano</option>
+                    </select>
+                </div>
             </div>
             <div class="right d-flex s-between">
                 <ul>
@@ -123,7 +138,7 @@
                     <li><a href="">Negozio</a></li>
                 </ul>
                 <ul>
-                    <li>><h3 class="text-contrast">Risorse</h3></li>
+                    <li><h3 class="text-contrast">Risorse</h3></li>
                     <li><a href="">Scarica</a></li>
                     <li><a href="">Perché Discord</a></li>
                     <li><a href="">Nitro</a></li>
@@ -145,7 +160,7 @@
                 </ul>
             </div>    
        </nav>    
-            <nav class="d-flex s-between">
+            <nav class="container d-flex s-between bottom">
                 <div>
                     <img src="./img/logo.svg" alt="Logo">
                     <i class="fa-brands fa-youtube"></i>

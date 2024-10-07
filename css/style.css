@@ -98,6 +98,19 @@ main section > div {
     padding: 10px 0; 
 
 }
+
+.wave {
+    background-image: url('../img/wave.svg');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    opacity: 0.03;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
 .btn {
     display: inline-block;
     padding: 8px 14px;
@@ -123,7 +136,7 @@ main section > div {
 .dark {
     background-color: var(--dark);
 }
-.constrast {
+.contrast {
     background-color: var(--contrast-color);
 }
 
@@ -159,13 +172,13 @@ main section > div {
 }
 
 #call-to-action {
-    background-image: url(../img/wave.svg);
+    margin-bottom: 100px;
 }
 
 /* footer */
 
 footer {
-    background-color: var(--dark);
+    padding: 50px 0;
 }
 
 footer li a {
@@ -175,16 +188,25 @@ footer li a {
     flex-wrap: nowrap;
 }
 
-footer img {
-    height: 40px;
-    width: 50px;
+.left img {
+    height: 20px;
+    width: 25px;
 }
 .left {
-    width: 40%;
+    width: 20%;
 }
 .right {
-    width: 60%;
+    width: 80%;
 }
+
+.right ul {
+    width: 20%;
+}
+
+.bottom {
+    border-top: 1px solid var(--blue) ;
+}
+
 /* utility */
 
 .d-flex {
@@ -221,3 +243,4 @@ footer img {
 .f-wrap {
     flex-wrap: nowrap
 }
+
