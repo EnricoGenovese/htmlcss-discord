@@ -49,7 +49,7 @@ p {
 /* header */
 
 header {
-    padding: 10px;
+    padding: 15px;
 }
 
 a {
@@ -63,9 +63,7 @@ main section > div {
     margin-top: 100px;
 }
 
-.img img {
-    width: 100%;
-}
+
  /* main */
 
 .container {
@@ -83,12 +81,13 @@ main section > div {
     width: 60%;
 }
 
+
 .content {
     width: 40%;
 }
 
-.h-content {
-    width: 80%;
+.h-img, .h-content {
+    width: 100%;
 }
 
 .stars {
@@ -102,7 +101,7 @@ main section > div {
     background-image: url('../img/wave.svg');
     background-size: cover;
     height: 200px;
-    width: 100%;
+    max-width: 100%;
     opacity: 0.03;
 }
 
@@ -160,7 +159,7 @@ main section > div {
 }
  /* id */
 
- #hero {
+#hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     min-height: 600px; 
@@ -168,6 +167,10 @@ main section > div {
     justify-content: space-between; 
     align-items: center;
     text-align: center 
+}
+
+#technology img {
+    width: 100%;
 }
 
 #call-to-action {
@@ -183,8 +186,7 @@ footer {
 footer li a {
     color: #ffffff;
     text-decoration: none;
-    padding: 10px;
-    flex-wrap: nowrap;
+    padding: 30px 0;
 }
 
 select {
@@ -195,6 +197,7 @@ select {
 i {
     padding-right: 10px;
 }
+
 .left {
     width: 20%;
 } 
