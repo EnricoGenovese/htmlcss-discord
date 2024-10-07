@@ -36,6 +36,7 @@ h1 {
     padding-bottom: 20px;
     font-size: 3em;
 }
+
 main h2 {
     font-size: 2.5em;
     padding: 20px 20px;
@@ -286,5 +287,8 @@ li > a:hover {
 }
 
 #download:hover {
-    color: red;
+    background-color: #7289DAff;
+    box-shadow: 0 0 5px 3px #5865f2ff; /* sorry Discord, and thank you for the color! */
+    transform: scale(1.05);
+    transition-duration: .2s;
 }
