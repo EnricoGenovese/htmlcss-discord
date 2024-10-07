@@ -276,6 +276,9 @@ i {
     flex-wrap: wrap
 }
 
+.c-text {
+    text-align: center;
+ }
 /* hover */
 
 li > a:hover {
@@ -284,11 +287,24 @@ li > a:hover {
 
 #login:hover {
     color: var(--blue);
+    transition-duration: 0.1s;
+    cursor: pointer;
 }
 
+#open-in-browser:hover {
+    background-color: #23272AFF;
+    box-shadow: 0 10px 5px 3px #23272A26;
+    transition-duration: 0.2s;
+}
 #download:hover {
-    background-color: #7289DAff;
-    box-shadow: 0 0 5px 3px #5865f2ff; /* sorry Discord, and thank you for the color! */
+    background-color: #7289DAE6;
+    box-shadow: 0 0 5px 3px #7289DAE6;
     transform: scale(1.05);
+    transition-duration: .2s;
+}
+
+#sign-up:hover {
+    background-color: #255EE9E6;
+    box-shadow: 0 0 5px 3px #255EE9ff;
     transition-duration: .2s;
 }
